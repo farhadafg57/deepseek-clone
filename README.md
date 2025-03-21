@@ -1,6 +1,6 @@
 # DeepSeek Clone
 
-DeepSeek Clone is a web application designed to provide an interactive chat interface powered by AI. It allows users to engage in conversations, manage chats, and perform actions like renaming or deleting chats. The application is built using modern web technologies such as React, Next.js, and Node.js.
+DeepSeek Clone is a web application designed to provide an interactive chat interface powered by **AI**. It allows users to engage in conversations, manage chats, and perform actions like renaming or deleting chats. The application is built using modern web technologies such as React, Next.js, and Node.js.
 
 ## Features
 
@@ -13,7 +13,7 @@ DeepSeek Clone is a web application designed to provide an interactive chat inte
 ## Tech Stack
 
 - **Frontend**: React, Next.js
-- **Backend**: Node.js, Express.js
+- **Backend**: Node.js, Clerk
 - **Database**: MongoDB
 - **Styling**: Tailwind CSS
 - **State Management**: Context API
@@ -22,7 +22,7 @@ DeepSeek Clone is a web application designed to provide an interactive chat inte
 
 ## Folder Structure
 
-```
+```groovy
 deepseek-clone/
 ├── app/
 │   ├── api/
@@ -182,7 +182,7 @@ The `AppContext` provides global state management for the application, including
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/elyse502/deepseek-clone/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -191,7 +191,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [MongoDB Documentation](https://www.mongodb.com/docs/)
 - [Svix Webhooks](https://www.svix.com/)
 
----
 
 ## 📞 Contact
 For any questions or support, please contact:
