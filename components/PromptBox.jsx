@@ -110,7 +110,7 @@ const PromptBox = ({ isLoading, setIsLoading }) => {
       onSubmit={sendPrompt}
       className={`w-full ${
         selectedChat?.messages.length > 0 ? "max-w-3xl" : "max-w-2xl"
-      } bg-[#404045] p-4 rounded-3xl mt-4 transition-all`}
+      } bg-[#222] p-4 rounded-3xl mt-4 transition-all`}
     >
       <textarea
         onKeyDown={handleKeyDown}
@@ -146,7 +146,7 @@ const PromptBox = ({ isLoading, setIsLoading }) => {
           />
           <button
             className={`${
-              prompt ? "bg-primary" : "bg-[#71717a]"
+              prompt ? "bg-[var(--color-primary)]" : "bg-[#71717a]"
             } rounded-full p-2 cursor-pointer`}
           >
             <Image

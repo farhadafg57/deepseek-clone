@@ -4,8 +4,8 @@
   "description": "Afghani AI - Your AI-powered assistant",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#292a2d",
-  "theme_color": "#4d6bfe",
+  "background_color": "#101010",
+  "theme_color": "#198754",
   "orientation": "portrait",
   "icons": [
     {
