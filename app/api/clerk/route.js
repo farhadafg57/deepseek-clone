@@ -5,7 +5,7 @@ import { headers } from "next/headers";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
-  const wh = new Webhook(process.env.SIGNING_SERCRET);
+  const wh = new Webhook(process.env.SIGNING_SECRET); // fixed typo
   const headerPayload = await headers();
   const svixHeaders = {
     "svix-id": headerPayload.get("svix-id"),

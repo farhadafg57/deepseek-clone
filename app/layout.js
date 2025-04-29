@@ -20,6 +20,12 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <AppContextProvider>
         <html lang="en">
+          <head>
+            <link rel="manifest" href="/manifest.json" />
+            <meta name="theme-color" content="#4d6bfe" />
+            <link rel="icon" href="/assets/logo_icon.svg" />
+            {/* Add Apple touch icon if you have one */}
+          </head>
           <body className={`${inter.className} antialiased`}>
             <Toaster
               toastOptions={{

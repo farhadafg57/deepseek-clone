@@ -6,7 +6,7 @@ export default async function connectDB() {
   if (cached.conn) return cached.conn;
   if (!cached.promise) {
     cached.promise = mongoose
-      .connect(process.env.MONGODB_URI)
+      .connect(process.env.MONGO_URI) // fixed env var name
       .then((mongoose) => mongoose);
   }
 
