@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "DeepSeek - ElyséeDev",
-  description: "Full Stack Project",
+  title: "Afghani AI",
+  description: "Afghani AI - Your AI-powered assistant",
 };
 
 export default function RootLayout({ children }) {

@@ -1,6 +1,6 @@
-# DeepSeek Clone
+# Afghani AI
 
-DeepSeek Clone is a web application designed to provide an interactive chat interface powered by **AI**. It allows users to engage in conversations, manage chats, and perform actions like renaming or deleting chats. The application is built using modern web technologies such as React, Next.js, and Node.js.
+Afghani AI is a web application designed to provide an interactive chat interface powered by **AI**. It allows users to engage in conversations, manage chats, and perform actions like renaming or deleting chats. The application is built using modern web technologies such as React, Next.js, and Node.js.
 
 ## LIVE - DEMO 🌐
 Visit the 👉 [LINK 🔗](https://deepseek-clone-gold.vercel.app)
@@ -207,6 +207,48 @@ For any questions or support, please contact:
 <div align="center">
 Made with ❤️ by <b>Elysée NIYIBIZI</b>
 </div>
+
+## 📦 Deploying to Firebase Hosting
+
+You can deploy this project to [Firebase Hosting](https://firebase.google.com/products/hosting) by following these steps:
+
+1. **Install Firebase CLI** (if not already installed):
+   ```bash
+   npm install -g firebase-tools
+   ```
+
+2. **Login to Firebase**:
+   ```bash
+   firebase login
+   ```
+
+3. **Initialize Firebase in your project directory**:
+   ```bash
+   firebase init
+   ```
+   - Select **Hosting** (and optionally Functions if you want to use serverless backend).
+   - Choose your Firebase project or create a new one.
+   - Set the public directory to `out` (for static export) or `.next` (for SSR, see below).
+   - Configure as a single-page app if prompted.
+
+4. **Build your Next.js app**:
+   - For static export (recommended for simple deployments):
+     ```bash
+     npm run build
+     npm run export
+     ```
+     This will output static files to the `out` directory.
+
+   - For SSR (Server-Side Rendering) with Firebase Functions, use [next-firebase-hosting](https://github.com/jthegedus/firebase-functions-next) or similar solutions.
+
+5. **Deploy to Firebase**:
+   ```bash
+   firebase deploy
+   ```
+
+**Note:**  
+- If you use static export, some Next.js features (like API routes or SSR) will not work.  
+- For full SSR support, refer to the [official Next.js Firebase Hosting guide](https://nextjs.org/docs/deployment#firebase-hosting).
 
 
 

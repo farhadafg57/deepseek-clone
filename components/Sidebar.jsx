@@ -25,7 +25,7 @@ const Sidebar = ({ expand, setExpand }) => {
           <Image
             className={expand ? "w-36" : "w-10"}
             src={expand ? assets.logo_text : assets.logo_icon}
-            alt={expand ? "logo_text" : "logo_icon"}
+            alt={expand ? "afghani ai logo text" : "afghani ai logo icon"}
           />
 
           <div
@@ -117,7 +117,7 @@ const Sidebar = ({ expand, setExpand }) => {
           >
             <div className="relative w-max bg-black text-white text-sm p-3 rounded-lg shadow-lg">
               <Image className="w-44" src={assets.qrcode} alt="qrcode" />
-              <p>Scan to get DeepSeek App</p>
+              <p>Scan to get Afghani AI App</p>
               <div
                 className={`w-3 h-3 absolute bg-black rotate-45 ${
                   expand ? "right-1/2" : "left-4"
