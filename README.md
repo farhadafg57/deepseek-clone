@@ -73,7 +73,7 @@ deepseek-clone/
 
 4. Run the development server:
    ```bash
-   npm run dev
+   npm start
    ```
 
 5. Open the application in your browser:
