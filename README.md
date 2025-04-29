@@ -73,6 +73,12 @@ deepseek-clone/
 
 4. Run the development server:
    ```bash
+   npm run dev
+   ```
+
+   For production build and start:
+   ```bash
+   npm run build
    npm start
    ```
 
@@ -80,6 +86,10 @@ deepseek-clone/
    ```
    http://localhost:3000
    ```
+
+6. Ensure you have a `.env` file with all required variables (see `.env.example`).
+
+7. Update `public/firebase-messaging-sw.js` with your actual Firebase config values if you plan to use Firebase Cloud Messaging.
 
 ## API Endpoints
 
